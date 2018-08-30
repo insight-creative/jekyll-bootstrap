@@ -300,7 +300,7 @@ Template: Insight-Responsive
 /*4.0 Header Styling -------------------------------------------*/
 .site-header {
   position: fixed;
-  top: 0;
+  top: 1;
   left: 0;
   z-index: 9999;
   height: 70px;

@@ -1,3 +1,36 @@
+<?php
+/**
+ * The header for our theme
+ *
+ * This is the template that displays all of the <head> section and everything up until <div id="content">
+ *
+ * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
+ *
+ * @package Insight-Responsive
+ */
+?>
+<!doctype html>
+
+<html <?php language_attributes(); ?>>
+
+<head>
+
+	<meta charset="<?php bloginfo( 'charset' ); ?>">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+
+	<link href="http://localhost/InsightResponsive/wp-content/themes/upe_customChild/Assets/webfonts/fontawesome-all.css" rel="stylesheet">
+
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="  crossorigin="anonymous"></script>
+
+	<?php wp_head(); ?>
+
+</head>
+
+<body <?php body_class(); ?>>
+
 <div class = "menu">
 
 		<div class = "linkWrap">
@@ -143,4 +176,4 @@
 
 	</header><!-- #masthead -->
 
-	
+	<div id="content" class="site-content">
